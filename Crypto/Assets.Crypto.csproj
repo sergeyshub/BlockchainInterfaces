@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BitcoinLib\BitcoinLib.csproj" />
+    <ProjectReference Include="..\Ethereum\Nethereum.JsonRpc.Client\Nethereum.JsonRpc.Client.csproj" />
+    <ProjectReference Include="..\Ethereum\Nethereum.JsonRpc.RpcClient\Nethereum.JsonRpc.RpcClient.csproj" />
+    <ProjectReference Include="..\Ethereum\Nethereum.RPC\Nethereum.RPC.csproj" />
+    <ProjectReference Include="..\Ethereum\Nethereum.Util\Nethereum.Util.csproj" />
+  </ItemGroup>
+
+</Project>
